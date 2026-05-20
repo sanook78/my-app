@@ -1,0 +1,20 @@
+รันเซิร์ฟเวอร์:
+node index.js
+เปิดเบราว์เซอร์ไปที่ http://localhost:3000 จะเห็นข้อความ Hello World!
+
+--
+ติดตั้งแบบ Global (ถ้าต้องการใช้ Express Generator)
+npm install -g express-generator
+express my-app
+cd my-app && npm install
+npm start
+
+--
+CMD ครับ syntax ใช้คำสั่งนี้
+cd /d D:\my-app
+node index.js
+
+--
+PowerShell ไม่ใช่ CMD ครับ syntax ต่างกัน ใช้คำสั่งนี้แทน:
+cd D:\my-app
+node index.js
